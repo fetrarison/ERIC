@@ -135,6 +135,7 @@ export default function Home() {
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+           
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="h-48 bg-sky-200 dark:bg-sky-900 flex items-center justify-center">
                 <Icons.Briefcase className="w-16 h-16 text-sky-600 dark:text-sky-400" />
@@ -227,6 +228,24 @@ export default function Home() {
                 </Button>
               </CardFooter>
             </Card>
+
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+  <div className="h-48 bg-sky-200 dark:bg-sky-900 flex items-center justify-center">
+    <Icons.Briefcase className="w-16 h-16 text-sky-600 dark:text-sky-400" />
+  </div>
+  <CardHeader>
+    <CardTitle>ARC APPS</CardTitle>
+    <CardDescription>1er juillet 2025</CardDescription>
+  </CardHeader>
+  <CardContent>
+    <p className="text-gray-600 dark:text-gray-400">
+      ARC APPS est une application web de gestion d’archives avec un système de login personnalisé.
+      Elle permet de créer, modifier et supprimer des archives, chaque utilisateur disposant de son propre compte.
+      Technologies utilisées : Frontend en React, Backend en Spring Boot (Java 8), base de données Firebird.
+    </p>
+  </CardContent>
+</Card>
+
           </div>
         </section>
 
